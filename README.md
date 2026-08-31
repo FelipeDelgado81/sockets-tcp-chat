@@ -130,7 +130,7 @@ Instrucciones: Escribe un mensaje o usa los comandos disponibles.
 
 ### Traza Simulada de Ejecución
 
-#### 🖥️ Terminal 1 (Servidor TCP)
+####  Terminal 1 (Servidor TCP)
 ```text
 [INICIO] Servidor TCP listo y escuchando en 127.0.0.1:65432
 [ESPERA] Esperando conexión entrante de algún cliente...
