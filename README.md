@@ -132,10 +132,7 @@ Instrucciones: Escribe un mensaje o usa los comandos disponibles.
 [INICIO] Servidor TCP listo y escuchando en 127.0.0.1:65432
 [ESPERA] Esperando conexión entrante de algún cliente...
 [CONEXION] Cliente conectado exitosamente desde ('127.0.0.1', 54321)
-[MENSAJE] ('127.0.0.1', 54321) -> TIME
-[MENSAJE] ('127.0.0.1', 54321) -> ECHO Hola Mundo TCP
-[MENSAJE] ('127.0.0.1', 54321) -> STATS
-[MENSAJE] ('127.0.0.1', 54321) -> EXIT
+[MENSAJE] ('127.0.0.1', 54321) -> /hora
 [INFO] Cliente ('127.0.0.1', 54321) solicitó desconexión mediante EXIT.
 [DESCONEXION] Socket y recursos del cliente ('127.0.0.1', 54321) liberados de forma segura.
 [ESPERA] Esperando conexión entrante de algún cliente...
@@ -146,14 +143,9 @@ Instrucciones: Escribe un mensaje o usa los comandos disponibles.
 [CONECTANDO] Intentando conectar a 127.0.0.1:65432...
 [CONEXION EXITOSA] Conectado con éxito al servidor en 127.0.0.1:65432
 
-Tú: TIME
+Tú: /hora
 [SERVIDOR] Hora actual: 2026-08-31 12:49:15
 
-Tú: ECHO Hola Mundo TCP
-[SERVIDOR] ECHO: Hola Mundo TCP
-
-Tú: STATS
-[SERVIDOR] Estado: ACTIVO | Paquetes Procesados: 3 | Tiempo de Sesión: 00:01:15
 
 Tú: EXIT
 [SERVIDOR] Confirmando cierre de sesión... Bye!
