@@ -119,12 +119,9 @@ Instrucciones: Escribe un mensaje o usa los comandos disponibles.
 
 | Comando | Descripción |
 | :--- | :--- |
-| `TIME` (o `/hora`) | Solicita la fecha y hora actual del servidor. |
-| `UPTIME` | Consulta el tiempo transcurrido desde que inició el servidor. |
-| `ECHO <mensaje>` | El servidor retransmite exactamente el `<mensaje>` recibido. |
-| `STATS` | Muestra estadísticas generales de la sesión actual. |
-| `EXIT` (o `/salir`) | Cierra de manera limpia la sesión actual y finaliza el cliente. |
-| `<texto libre>` | Cualquier otro texto se envía y es procesado/confirmado por el servidor. |
+| `/hora` | Solicita la fecha y hora actual del servidor. |
+| `/salir` | Cierra de manera limpia la sesión actual y finaliza el cliente. |
+| `/archivo <nombre.txt>` | El cliente envia el archivo al servidor. |
 
 ---
 
